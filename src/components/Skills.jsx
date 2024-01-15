@@ -53,6 +53,14 @@ const Skills = () => {
         id:11,
         name:'GSAP',
         img:'gsap.svg'
+    },{
+        id:12,
+        name:'Netlify',
+        img:'netlify.png'
+    },{
+        id:13,
+        name:'Python',
+        img:'python.png'
     }]
 
     const [skills,setSkills]=useState(skillsdata);
