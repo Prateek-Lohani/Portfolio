@@ -26,7 +26,7 @@ const data=[
         <div className="w-[90%] h-[80%]  p-2 flex justify-center gap-12 md:gap-40 items-top">
                 {socials.map((social)=>{
                     return (<div key={social.id} className='md:w-[8%] h-[9vh] md:h-[80%] rounded-xl  overflow-hidden'>
-                        <img className='w-full rounded-md overflow-hidden  h-full object-cover bg-white' src={social.icon} alt={social.icon}/>
+                        <img className='hover:cursor-pointer hover:scale-110 transition-all w-full rounded-md overflow-hidden  h-full object-cover bg-white' src={social.icon} alt={social.icon}/>
                     </div>)
                 })}
         </div>

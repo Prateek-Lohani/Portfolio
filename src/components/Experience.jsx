@@ -30,9 +30,10 @@ const Experience = () => {
     const [exp,setExp]=useState(data);
 
   return (
-    <div className='w-full md:h-[80vh] h-[65vh] relative pt-[15vh]'>
+    <div className='w-full md:h-[90vh] h-[70vh] relative pt-[15vh]'>
         <div className='w-full h-full'>
             <h1 className='text-6xl md:text-8xl font-extrabold mb-4 p-2 font-[circular] text-white text-center'>Experience</h1>
+            <p className='text-center text-white pb-8 md:pb-12 text-xl md:text-2xl py-6 leading-[30px] tracking-tight font-normal'>Let's walk you through my journey. <span className='md:text-5xl text-3xl'>🧑🏻‍💻</span></p>
             {
                 exp.map((experience)=>{
                     return <div className='flex p-4 flex-col items-center justify-center hover:cursor-pointer'>
