@@ -4,6 +4,7 @@ import Skills from './components/Skills'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
+import Socials from './components/Socials'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Experience/>
+      <Socials/>
     </div>
   )
 }

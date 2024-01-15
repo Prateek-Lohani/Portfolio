@@ -1,0 +1,37 @@
+import React, { useState } from 'react'
+
+const Socials = () => {
+ 
+const data=[
+    {
+        id:0,
+        icon:'github.png',
+        href:'',
+    },{
+        id:1,
+        icon:'linkedin.png',
+        href:'',
+    },{
+        id:2,
+        icon:'twitter.png',
+        href:''
+    }
+]
+
+ const [socials,setSocials]=useState(data);
+ 
+    return (
+    <div className='w-full p-4 h-[40vh]  flex flex-col items-center justify-center'>
+        <h5 className='text-6xl md:text-8xl font-extrabold p-2 text-center font-[circular] text-white pb-10'>Socials</h5>
+        <div className="w-[90%] h-[80%]  p-2 flex justify-center gap-12 md:gap-40 items-top">
+                {socials.map((social)=>{
+                    return (<div key={social.id} className='md:w-[8%] h-[9vh] md:h-[80%] rounded-xl  overflow-hidden'>
+                        <img className='w-full rounded-md overflow-hidden  h-full object-cover bg-white' src={social.icon} alt={social.icon}/>
+                    </div>)
+                })}
+        </div>
+    </div>
+  )
+}
+
+export default Socials

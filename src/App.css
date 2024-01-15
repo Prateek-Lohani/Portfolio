@@ -24,3 +24,7 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-thumb{
   background-color: #217281;
 }
+
+::selection{
+  user-select: none;
+}
