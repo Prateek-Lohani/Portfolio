@@ -6,15 +6,15 @@ const data=[
     {
         id:0,
         icon:'github.png',
-        href:'',
+        href:'https://github.com/Prateek-Lohani',
     },{
         id:1,
         icon:'linkedin.png',
-        href:'',
+        href:'https://www.linkedin.com/in/prateeklohani/',
     },{
         id:2,
         icon:'twitter.png',
-        href:''
+        href:'https://twitter.com/PrateekLohani4'
     }
 ]
 
@@ -26,7 +26,7 @@ const data=[
         <div className="w-[90%] h-[80%]  p-2 flex justify-center gap-12 md:gap-40 items-top">
                 {socials.map((social)=>{
                     return (<div key={social.id} className='md:w-[8%] h-[9vh] md:h-[80%] rounded-xl  overflow-hidden'>
-                        <img className='hover:cursor-pointer hover:scale-110 transition-all w-full rounded-md overflow-hidden  h-full object-cover bg-white' src={social.icon} alt={social.icon}/>
+                        <a href={social.href} target='_blank'><img className='hover:cursor-pointer hover:scale-110 transition-all w-full rounded-md overflow-hidden  h-full object-cover bg-white' src={social.icon} alt={social.icon}/></a>
                     </div>)
                 })}
         </div>
