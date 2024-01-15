@@ -37,7 +37,7 @@ const Experience = () => {
             <p className='text-center text-white pb-8 md:pb-12 text-sm md:text-2xl w-[40%] py-6 leading-[30px] tracking-tight font-normal'>Let's walk you through my journey. <span className='md:text-5xl text-2xl'>🧑🏻‍💻</span></p></div>
             {
                 exp.map((experience)=>{
-                    return <div className='flex p-4 flex-col items-center justify-center hover:cursor-pointer'>
+                    return <div key={experience.id} className='flex p-4 flex-col items-center justify-center hover:cursor-pointer'>
                         <div className='w-full md:w-[80vw] h-[10vh] flex rounded-lg overflow-hidden bg-slate-500/20 hover:bg-cyan-400/50 md:hover:bg-slate-500/20'>
                             <h2 className='w-full md:w-[90vw] h-full flex items-center justify-center text-xs md:text-2xl tracking-wide font-semibold text-white'>{experience.designation} <span className='italic font-normal leading-9 ml-2'>{experience.company}</span></h2>
                             <div className='hidden right w-[10vw] h-full bg-blue-400 rounded-full left-[3vw] relative md:flex items-center pl-6'>
