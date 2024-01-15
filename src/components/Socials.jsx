@@ -22,10 +22,11 @@ const data=[
  
     return (
     <div className='w-full p-4 h-[40vh]  flex flex-col items-center justify-center'>
-        <h5 className='text-6xl md:text-8xl font-extrabold p-2 text-center font-[circular] text-white pb-10'>Socials</h5>
-        <div className="w-[90%] h-[80%]  p-2 flex justify-center gap-12 md:gap-40 items-top">
+        <h5 className='text-4xl md:text-8xl font-extrabold p-2 text-center font-[circular] text-white pb-10'>Socials</h5>
+        
+        <div className="w-[90%] h-[80%]  p-2 flex justify-center gap-8 md:gap-40 items-top">
                 {socials.map((social)=>{
-                    return (<div key={social.id} className='md:w-[8%] h-[9vh] md:h-[80%] rounded-xl  overflow-hidden'>
+                    return (<div key={social.id} className='md:w-[8%] h-[5.5vh] md:h-[80%] rounded-xl  overflow-hidden'>
                         <a href={social.href} target='_blank'><img className='hover:cursor-pointer hover:scale-110 transition-all w-full rounded-md overflow-hidden  h-full object-cover bg-white' src={social.icon} alt={social.icon}/></a>
                     </div>)
                 })}
