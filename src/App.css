@@ -1,0 +1,25 @@
+@font-face {
+  font-family: circular;
+  src: url('./assets/CircularStd-Black.678b81a5.ttf');
+}
+
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height:100%;
+}
+
+body::-webkit-scrollbar{
+  width:8px;
+  background-color: slategray;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #217281;
+}
