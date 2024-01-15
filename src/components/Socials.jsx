@@ -22,7 +22,7 @@ const data=[
  
     return (
     <div className='w-full p-4 h-[40vh]  flex flex-col items-center justify-center'>
-        <h5 className='text-5xl md:text-8xl font-extrabold p-2 text-center font-[circular] text-white pb-10'>Socials</h5>
+        <h5 className='text-4xl md:text-8xl font-extrabold p-2 text-center font-[circular] text-white pb-10'>Socials</h5>
         
         <div className="w-[90%] h-[80%]  p-2 flex justify-center gap-8 md:gap-40 items-top">
                 {socials.map((social)=>{
