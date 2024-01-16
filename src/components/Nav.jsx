@@ -32,7 +32,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
                 </div>
                 </>
                 :
-                <div className='md:hidden flex justify-start items-center px-4'>
+                <div className='w-full h-full md:hidden flex justify-start items-center px-4'>
                 <RiMenu2Fill onClick={()=>setMenuOpen(!menuOpen)} className='text-4xl'/>
                 </div>
             }
