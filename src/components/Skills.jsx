@@ -69,10 +69,10 @@ const Skills = () => {
 
     const reference=useRef();
     return (
-    <div className='w-full h-fit p-4 relative'>
+    <div className=' w-full md:pt-[10vh] h-fit p-4 relative'>
         <div className='flex justify-center items-center flex-col text-white'>
         <h5 className='text-4xl md:text-8xl font-extrabold p-2 font-[circular]'>Skills</h5>
-        <p className='pb-8 md:pb-12 md:w-[50%] w-[75%] text-sm md:text-2xl py-6 leading-[30px] tracking-tight font-normal'>
+        <p className='pb-8 md:pb-12 md:w-[50%] w-[75%] text-center text-sm md:text-2xl py-6 leading-[30px] tracking-tight font-normal'>
             You can't box these skills into a simple list, they are an explosion display of talent in action. But for the sake of formality, check the skills below.
         </p>
 

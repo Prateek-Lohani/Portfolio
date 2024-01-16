@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from 'react';
 import './App.css';
 import Loading from './components/Loading';
+import Nav from './components/Nav';
 
 
 const Hero = lazy(() => import('./components/Hero'));
@@ -15,6 +16,7 @@ function App() {
   return (
     <Suspense fallback={<Loading />}>
       <div className='w-full bg-[#100F10]'>
+        <Nav/>
         <Hero />
         <Skills />
         <Projects />

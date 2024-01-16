@@ -21,7 +21,7 @@ const data=[
  const [socials,setSocials]=useState(data);
  
     return (
-    <div className='w-full p-4 h-[30vh] md:h-[40vh]  flex flex-col items-center justify-center relative'>
+    <div className=' w-full md:pt-[10vh] p-4 h-[30vh] md:h-fit  flex flex-col items-center justify-center relative'>
         <h5 className='text-4xl md:text-8xl font-extrabold p-2 text-center font-[circular] text-white pb-10'>Socials</h5>
         
         <div className="w-[90%] h-[80%]  p-2 flex justify-center gap-8 md:gap-40 items-top">
