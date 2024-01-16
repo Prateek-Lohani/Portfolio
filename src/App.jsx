@@ -19,10 +19,6 @@ const experienceRef=useRef(null);
 const resumeRef=useRef(null);
 const socailsRef=useRef(null);
 
-useEffect(()=>{
-  window.scrollTo({top:0,behavior:'smooth'});
-},[]);
-
 
 const scrollToSkills=()=>{
   skillRef.current.scrollIntoView({behavior: 'smooth'});
