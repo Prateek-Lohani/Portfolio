@@ -19,23 +19,23 @@ const Projects = () => {
       
     {projects.map((project)=>{
       return <div className='w-full h-[60vh] md:p-4 md:h-[80vh]  md:flex shrink-0'>
-      <div className='left h-[60%] md:w-[65%] md:h-full  flex justify-center items-center'>
+      <div className='left  h-[60%] md:w-[65%] md:h-full  flex justify-center items-center'>
           <video src={project.vidsrc} autoPlay='true' muted='true' loop className='w-full scale-y-[2] md:scale-y-[1.3] object-cover md:h-full md:object-contain'></video>
       </div>
-      <div className='right  md:w-[35%] flex items-center justify-center h-[40%] md:h-full  px-2 md:p-4'>
-        <div className='w-full text-white  rounded-xl p-2 h-[85%]'>
-            <div className='flex gap-2  flex-col w-full  md:h-[40%] '>
-              <h4 className='font-bold text-center text-lg underline md:text-[4.2vh] text-cyan-300/60 font-[circular] uppercase'>{project.projectName}</h4>
-              <p className='md:text-xl p-2'>{project.projectDesc}</p>
+      <div className='right   md:w-[35%] flex md:items-center justify-center h-[40%] md:h-full px-2 md:p-4'>
+        <div className='w-full text-white  rounded-xl md:p-2 h-[85%]'>
+            <div className='flex  md:gap-2 flex-col w-full  md:h-[40%] '>
+              <h4 className='font-bold text-center text-sm underline md:text-[4.2vh] py-1 text-cyan-300/60 font-[circular] uppercase'>{project.projectName}</h4>
+              <p className='text-sm px-2 md:text-xl md:p-2'>{project.projectDesc}</p>
               </div>
               <div className='p-2 w-full md:h-[40%]  flex flex-wrap gap-2'>
               {project.tech.map((tech, index) => (
-              <p className='w-fit bg-slate-500/70 hover:bg-slate-500/30 hover:cursor-pointer h-fit px-2 py-1  rounded-lg' key={index}>{tech}</p>
+              <p className='w-fit bg-slate-500/70 hover:bg-slate-500/30 text-xs md:text-lg hover:cursor-pointer h-fit px-2 py-1  rounded-lg' key={index}>{tech}</p>
             ))}
            
                 </div>
-                <div className='h-[20%] flex justify-start items-end pr-6'>
-                <button onClick={()=>window.open(project.weburl)} className='flex items-center justify-center'> <span className='underline px-2 text-[3vh] font-semibold capitalize'>Visit Site</span><FaExternalLinkAlt size={'3.5vh'} color='white'/></button>
+                <div className='md:h-[20%] h-fit flex justify-start items-end pr-6'>
+                <button onClick={()=>window.open(project.weburl)} className='flex items-center justify-center'> <span className='underline px-2 text-sm md:text-[3vh] font-semibold capitalize'>Visit Site</span><FaExternalLinkAlt size={'1.9vh'} color='white'/></button>
 
                 </div>
           </div>
