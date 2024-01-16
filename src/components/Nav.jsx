@@ -22,7 +22,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
             <RiCloseFill onClick={()=>setMenuOpen(!menuOpen)} className='text-4xl'/>
             
             </section>
-                <div className='md:hidden flex flex-col gap-4 items-center w-[100%] p-4 h-[35vh] bg-black/90 absolute'>
+                <div className='md:hidden flex flex-col gap-4 items-center w-[100%] py-6 p-4 h-fit bg-black/90 absolute'>
                 <h4 className='hover:cursor-pointer text-xl uppercase font-bold' onClick={scrollToSkills}>Skills</h4>
                 <h4 className='hover:cursor-pointer text-xl uppercase font-bold' onClick={scrollToProjects}>Projects</h4>
                 <h4 className='hover:cursor-pointer text-xl uppercase font-bold' onClick={scrollToExperience}>Experience</h4>
@@ -32,7 +32,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
                 </div>
                 </>
                 :
-                <div className='md:hidden flex items-center p-2 pl-4'>
+                <div className='md:hidden flex justify-start items-center px-4'>
                 <RiMenu2Fill onClick={()=>setMenuOpen(!menuOpen)} className='text-4xl'/>
                 </div>
             }

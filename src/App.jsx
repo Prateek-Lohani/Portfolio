@@ -20,7 +20,7 @@ const resumeRef=useRef(null);
 const socailsRef=useRef(null);
 
 useEffect(()=>{
-  window.scrollTo();
+  window.scrollTo({top:0,behavior:'smooth'});
 },[]);
 
 
