@@ -11,7 +11,7 @@ const Nav = () => {
             <h5>Resume</h5>
             <h5>Socials</h5>
             </section>
-            <section className='md:hidden flex items-center px-4 py-1'>
+            <section className='md:hidden flex items-center justify-start px-4 py-2'>
             <RiMenu2Fill className='text-4xl'/>
             </section>
         
