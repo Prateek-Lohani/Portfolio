@@ -35,7 +35,7 @@ const Projects = () => {
            
                 </div>
                 <div className='md:h-[20%] h-fit flex justify-start items-end pr-6'>
-                <button onClick={()=>window.open(project.weburl)} className='flex items-center justify-center'> <span className='underline px-2 text-sm md:text-[3vh] font-semibold capitalize'>Visit Site</span><FaExternalLinkAlt size={'1.9vh'} color='white'/></button>
+                <button onClick={()=>window.open(project.weburl)} className='pt-1 flex items-center justify-center'> <span className='underline px-2 text-sm md:text-[3vh] font-semibold capitalize'>Visit Site</span><FaExternalLinkAlt size={'1.9vh'} color='white'/></button>
 
                 </div>
           </div>
