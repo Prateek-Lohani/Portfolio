@@ -18,11 +18,13 @@ const Projects = () => {
       
     {projects.map((project)=>{
       return <div className='w-full h-[50vh] md:p-4 md:h-[80vh] bg-red-700 md:flex'>
-      <div className='left md:w-[65%] md:h-full bg-yellow-500'>
-          <video src={project.vidsrc} autoPlay='true' muted='true' loop className='w-full md:h-full md:object-contain'></video>
+      <div className='left h-[70%] md:w-[65%] md:h-full bg-yellow-500 flex justify-center items-center'>
+          <video src={project.vidsrc} autoPlay='true' muted='true' loop className='w-full scale-y-[2] md:scale-y-[1.3] object-cover md:h-full md:object-contain'></video>
       </div>
-      <div className='left md:w-[35%] h-[40%] md:h-full bg-green-500'>
-        <p>{project.vidsrc}</p>
+      <div className='left md:w-[35%] flex items-center justify-center h-[30%] md:h-full bg-green-500 px-2 md:p-4'>
+        <div className='w-full h-[85%] bg-purple-600'>
+
+          </div>
       </div>
   </div>
     })}
