@@ -1,9 +1,10 @@
 import React from 'react'
 
 const Projects = () => {
-    console.log("%c 👨 Wow! I'm glad that you were curious enough to check the console. \n    Hope you liked my Portfolio. ", "color:cyan")
   return (
-    <div className='w-full h-screen'>Projects</div>
+    <div className='w-full min-h-screen'>
+      <h5 className='text-center text-white text-4xl md:text-8xl font-extrabold p-2 font-[circular]'>Projects</h5>
+    </div>
   )
 }
 
