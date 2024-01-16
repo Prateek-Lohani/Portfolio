@@ -9,7 +9,8 @@ const Skills = () => {
         id:0,
         name:'HTML',
         img:'html.png'
-    },{
+    }
+    ,{
         id:1,
         name:'CSS',
         img:'css.png'
@@ -61,7 +62,8 @@ const Skills = () => {
         id:13,
         name:'Python',
         img:'python.png'
-    }]
+    }
+]
 
     const [skills,setSkills]=useState(skillsdata);
 
@@ -80,9 +82,9 @@ const Skills = () => {
 
 
         {skills.map((skill)=>{
-            return <motion.div key={skill.id} dragConstraints={reference} whileDrag={{ scale: 1.2 }} dragTransition={{ bounceStiffness: 800, bounceDamping: 40 }} dragElastic={0.2} drag className='hover:scale-[99%] p-4 bottom-0 w-[100%] shadow-[0px_0px_2px_3px_rgba(109,40,217)] shadow-cyan-400/50 md:w-[200px] h-[25vh] md:h-[200px] bg-[#100F10] rounded-lg hover:cursor-pointer flex flex-col justify-center items-center gap-4'>
+            return <motion.div key={skill.id} dragConstraints={reference} whileDrag={{ scale: 1.2 }} dragTransition={{ bounceStiffness: 800, bounceDamping: 40 }} dragElastic={0.2} drag className='hover:scale-[99%] p-4 bottom-0 w-[100%] shadow-[0px_0px_2px_3px_rgba(109,40,217)] shadow-cyan-400/50 md:w-[200px] h-[17vh] md:h-[200px] bg-[#100F10] rounded-lg hover:cursor-pointer flex flex-col justify-center items-center gap-4'>
                 <div className='w-[85%] md:w-[60%] md:h-[60%] h-[60%] overflow-hidden'><img className='object-contain md:object-cover w-full h-full rounded-lg' src={skill.img} alt="logo" /></div>
-                <div className='w-full md:w-fit h-[20%]  text-center text-white text-sm md:text-xl font-semibold'>{skill.name}</div>
+                <div className='w-full md:w-fit h-[20%]  text-center text-white text-xs md:text-xl font-semibold'>{skill.name}</div>
             </motion.div>
             
         })}
