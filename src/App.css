@@ -33,3 +33,12 @@ body::-webkit-scrollbar-thumb{
 ::selection{
   user-select: none;
 }
+
+#projectscroll::-webkit-scrollbar{
+  height:1.2vh;
+  background-color: slategray;
+}
+
+#projectscroll::-webkit-scrollbar-thumb{
+  background-color: #217281;;
+}
