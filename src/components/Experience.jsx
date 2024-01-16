@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React, { forwardRef, useState } from 'react'
 import { IoIosAddCircleOutline } from "react-icons/io";
 
-const Experience = () => {
+const Experience = forwardRef(({refer},ref) => {
 
     const data=[{
             id:0,
@@ -30,7 +30,7 @@ const Experience = () => {
     const [exp,setExp]=useState(data);
 
   return (
-    <div className=' w-full h-fit p-4 relative md:pt-[10vh] '>
+    <div ref={refer} className=' w-full h-fit p-4 relative md:pt-[10vh] '>
         <div className='w-full h-full'>
             <h1 className='text-4xl md:text-8xl font-[circular] text-white text-center'>Experience</h1>
             <div className='w-full flex justify-center'>
@@ -51,6 +51,6 @@ const Experience = () => {
         </div>
     </div>
   )
-}
+})
 
 export default Experience

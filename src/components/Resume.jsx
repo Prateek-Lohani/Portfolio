@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
-const Resume = () => {
+const Resume = forwardRef(({refer},ref) => {
   return (
-    <div className=' w-full h-fit md:pt-[10vh] p-4 relative'>
+    <div ref={refer} className=' w-full h-fit md:pt-[10vh] p-4 relative'>
       <div className='flex justify-center items-center flex-col text-white'>
         <h5 className='text-4xl md:text-8xl font-extrabold p-2 font-[circular]'>Resume</h5>
         <div className='w-full md:w-[70vh] h-[20vh] md:h-[30vh] flex'>
@@ -16,9 +16,7 @@ const Resume = () => {
         </div>
    </div>
   )
-}
+})
 
 export default Resume
 
-
-// https://drive.google.com/file/d/1PukcDuNcwvHHFI1ggolL8ybMKt4VMxmC/view?usp=sharing
