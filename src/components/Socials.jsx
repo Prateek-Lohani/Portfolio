@@ -27,7 +27,7 @@ const data=[
         <div className="w-[90%] h-[80%]  p-2 flex justify-center gap-8 md:gap-40 items-top">
                 {socials.map((social)=>{
                     return (<div key={social.id} className='md:w-[8%] h-[45%] md:h-[80%] rounded-xl  overflow-hidden'>
-                        <a href={social.href} target='_blank'><img className='hover:cursor-pointer hover:scale-110 transition-all w-full rounded-md overflow-hidden  h-full object-cover bg-white' src={social.icon} alt={social.icon}/></a>
+                        <img onClick={()=>window.open(`${social.href}`)} className='hover:cursor-pointer hover:scale-110 transition-all w-full rounded-md overflow-hidden  h-full object-cover bg-white' src={social.icon} alt={social.icon}/>
                     </div>)
                 })}
         </div>

@@ -32,7 +32,7 @@ const Experience = () => {
   return (
     <div className='w-full md:h-[90vh] h-[70vh] relative pt-[15vh]'>
         <div className='w-full h-full'>
-            <h1 className='text-4xl md:text-8xl font-extrabold font-[circular] text-white text-center'>Experience</h1>
+            <h1 className='text-4xl md:text-8xl font-[circular] text-white text-center'>Experience</h1>
             <div className='w-full flex justify-center'>
             <p className='text-center text-white pb-8 md:pb-12 text-sm md:text-2xl w-[40%] py-6 leading-[30px] tracking-tight font-normal'>Let's walk you through my journey. <span className='md:text-5xl text-2xl'>🧑🏻‍💻</span></p></div>
             {

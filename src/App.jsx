@@ -1,25 +1,30 @@
-import { useState } from 'react'
-import './App.css'
-import Skills from './components/Skills'
-import Hero from './components/Hero'
-import Projects from './components/Projects'
-import Experience from './components/Experience'
-import Socials from './components/Socials'
-import Resume from './components/Resume'
+import React, { Suspense, lazy } from 'react';
+import './App.css';
+import Loading from './components/Loading';
+
+
+const Hero = lazy(() => import('./components/Hero'));
+const Skills = lazy(() => import('./components/Skills'));
+const Projects = lazy(() => import('./components/Projects'));
+const Experience = lazy(() => import('./components/Experience'));
+const Resume = lazy(() => import('./components/Resume'));
+const Socials = lazy(() => import('./components/Socials'));
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className='w-full bg-[#100F10]'>
-      <Hero/>
-      <Skills/>
-      <Projects/>
-      <Experience/>
-      <Resume/>
-      <Socials/>
-    </div>
-  )
+    <Suspense fallback={<Loading />}>
+      <div className='w-full bg-[#100F10]'>
+        <Hero />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Resume />
+        <Socials />
+      </div>
+    </Suspense>
+  );
 }
 
-export default App
+
+export default App;
