@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import data from '../utils/projectdata.js';
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
 
@@ -17,13 +18,26 @@ const Projects = () => {
         <div  className='w-[90%] md:w-[80%] h-[90%] md:p-8 p-4 mx-auto bg-slate-500/20 relative border border-cyan-400 rounded-lg flex md:justify-center md:items-center md:flex-wrap md:gap-8 gap-6 overflow-x-auto md:overflow-hidden' id='projectscroll'>
       
     {projects.map((project)=>{
-      return <div className='w-full h-[50vh] md:p-4 md:h-[80vh] bg-red-700 md:flex shrink-0'>
-      <div className='left h-[70%] md:w-[65%] md:h-full bg-yellow-500 flex justify-center items-center'>
+      return <div className='w-full h-[60vh] md:p-4 md:h-[80vh]  md:flex shrink-0'>
+      <div className='left h-[60%] md:w-[65%] md:h-full  flex justify-center items-center'>
           <video src={project.vidsrc} autoPlay='true' muted='true' loop className='w-full scale-y-[2] md:scale-y-[1.3] object-cover md:h-full md:object-contain'></video>
       </div>
-      <div className='left md:w-[35%] flex items-center justify-center h-[30%] md:h-full bg-green-500 px-2 md:p-4'>
-        <div className='w-full h-[85%] bg-purple-600'>
+      <div className='right  md:w-[35%] flex items-center justify-center h-[40%] md:h-full  px-2 md:p-4'>
+        <div className='w-full text-white  rounded-xl p-2 h-[85%]'>
+            <div className='flex gap-2  flex-col w-full  md:h-[40%] '>
+              <h4 className='font-bold text-center text-lg underline md:text-[4.2vh] text-cyan-300/60 font-[circular] uppercase'>{project.projectName}</h4>
+              <p className='md:text-xl p-2'>{project.projectDesc}</p>
+              </div>
+              <div className='p-2 w-full md:h-[40%]  flex flex-wrap gap-2'>
+              {project.tech.map((tech, index) => (
+              <p className='w-fit bg-slate-500/70 hover:bg-slate-500/30 hover:cursor-pointer h-fit px-2 py-1  rounded-lg' key={index}>{tech}</p>
+            ))}
+           
+                </div>
+                <div className='h-[20%] flex justify-start items-end pr-6'>
+                <button onClick={()=>window.open(project.weburl)} className='flex items-center justify-center'> <span className='underline px-2 text-[3vh] font-semibold capitalize'>Visit Site</span><FaExternalLinkAlt size={'3.5vh'} color='white'/></button>
 
+                </div>
           </div>
       </div>
   </div>

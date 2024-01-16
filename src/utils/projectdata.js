@@ -1,8 +1,8 @@
 const data=[
     {
         id:1,
-        projectName:'Obys Agency',
-        projectDesc:'Clone of an award winning website. ',
+        projectName:'Obys Agency Clone',
+        projectDesc:'Clone of an award winning website. lorem ipsum dolor sit amet  con             ',
         weburl:'https://obysagency.netlify.app/',
         vidsrc:'Obysagency.mp4',
         tech:[
@@ -16,8 +16,6 @@ const data=[
         ]
 
 
-    },{
-        
     }
 ]
 
