@@ -1,11 +1,13 @@
-import React,{useState} from 'react'
+import React,{useState,useRef} from 'react'
 import data from '../utils/projectdata.js';
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { motion } from 'framer-motion';
 
 const Projects = () => {
 
  
   const [projects,setProjects]=useState(data);
+
 
   return (
     <div className='w-full h-fit p-4 relative'>
@@ -28,9 +30,9 @@ const Projects = () => {
               <h4 className='font-bold text-center text-sm underline md:text-[4.2vh] py-1 text-cyan-300/60 font-[circular] uppercase'>{project.projectName}</h4>
               <p className='text-sm px-2 md:text-xl md:p-2'>{project.projectDesc}</p>
               </div>
-              <div className='p-2 w-full md:h-[40%]  flex flex-wrap gap-2'>
+              <div  className='p-2 w-full md:h-[40%]  flex flex-wrap gap-2'>
               {project.tech.map((tech, index) => (
-              <p className='w-fit bg-slate-500/70 hover:bg-slate-500/30 text-xs md:text-lg hover:cursor-pointer h-fit px-2 py-1  rounded-lg' key={index}>{tech}</p>
+              <motion.p dragConstraints={{ left: '5px', right: '5px' }} drag dragSnapToOrigin className='w-fit bg-slate-500/70 hover:bg-slate-500/30 text-xs md:text-lg hover:cursor-pointer h-fit px-2 py-1  rounded-lg' key={index}>{tech}</motion.p>
             ))}
            
                 </div>

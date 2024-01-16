@@ -23,6 +23,7 @@ function App() {
         <Socials />
       </div>
     </Suspense>
+   
   );
 }
 
