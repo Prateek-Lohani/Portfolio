@@ -2,6 +2,7 @@ import React, { Suspense, lazy ,useEffect,useRef} from 'react';
 import './App.css';
 import Loading from './components/Loading';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 const Hero = lazy(() => import('./components/Hero'));
 const Skills = lazy(() => import('./components/Skills'));
@@ -47,6 +48,7 @@ const scrollToSocials=()=>{
         <Experience refer={experienceRef}/>
         <Resume refer={resumeRef}/>
         <Socials refer={socailsRef}/>
+        <Footer/>
       </div>
     </Suspense>
    

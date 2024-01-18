@@ -22,16 +22,16 @@ const data=[
  const [socials,setSocials]=useState(data);
  
     return (
-    <div ref={refer} className='w-full bg-cyan-600/70 md:pt-[10vh] p-4 md:h-fit  flex flex-col items-center justify-center relative'>
+    <div ref={refer} className='w-full bg-cyan-600/70 md:pt-[10vh] pb-0 p-4 md:h-fit  flex flex-col items-center justify-center relative'>
         <h5 className='text-4xl text-white md:text-8xl font-extrabold p-2 font-[circular]'>Get in touch</h5>
         
-        <div className="form-container md:w-[60%] w-[80vw] h-[60vh] md:h-[70vh] bg-yellow-500">
+        <div className="form-container md:w-[50%] w-[80vw] h-[60vh] md:h-[70vh] ">
             <Form/>
         </div>
 
-        <div className="w-[90%] h-[80%]  p-2 flex justify-center gap-8 md:gap-10 items-top">
+        <div className="md:hidden pt-2 pb-1 flex justify-center gap-4 md:gap-10 items-top">
                 {socials.map((social)=>{
-                    return (<div key={social.id} className=' md:w-[3%] h-[45%] md:h-[80%] rounded-xl  overflow-hidden'>
+                    return (<div key={social.id} className='w-[6%] rounded-xl  overflow-hidden'>
                         <img onClick={()=>window.open(`${social.href}`)} className='hover:cursor-pointer hover:scale-110 transition-all w-full rounded-md overflow-hidden  h-full object-cover bg-white' src={social.icon} alt={social.icon}/>
                     </div>)
                 })}

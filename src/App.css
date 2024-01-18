@@ -42,3 +42,7 @@ body::-webkit-scrollbar-thumb{
 #projectscroll::-webkit-scrollbar-thumb{
   background-color: #217281;;
 }
+
+textarea {
+  resize: none;
+}

@@ -16,6 +16,8 @@
     "locomotive-scroll": "^4.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-form-hook": "^0.0.1",
+    "react-hook-form": "^7.49.3",
     "react-icons": "^5.0.1",
     "react-locomotive-scroll": "^0.2.2",
     "toastify": "^2.0.1"
