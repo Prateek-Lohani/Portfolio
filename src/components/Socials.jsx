@@ -23,6 +23,7 @@ const data=[
  
     return (
     <div ref={refer} className='w-full bg-cyan-600/70 md:pt-[10vh] p-4 md:h-fit  flex flex-col items-center justify-center relative'>
+        <h5 className='text-4xl text-white md:text-8xl font-extrabold p-2 font-[circular]'>Get in touch</h5>
         
         <div className="form-container md:w-[60%] w-[80vw] h-[60vh] md:h-[70vh] bg-yellow-500">
             <Form/>

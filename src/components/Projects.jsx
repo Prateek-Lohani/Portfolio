@@ -21,8 +21,8 @@ const Projects = forwardRef(({refer},ref) => {
       
     {projects.map((project)=>{
       return <div key={project.id} className='w-full h-[60vh] md:p-4 md:h-[80vh]  md:flex shrink-0'>
-      <div className='left  h-[60%] md:w-[65%] md:h-full flex justify-center items-center '>
-          <video src={project.vidsrc} autoPlay muted loop className='w-full scale-y-[2] md:scale-y-[1.3] object-cover md:h-full md:object-contain'></video>
+      <div className='left  h-[60%] md:w-[65%] md:h-full flex justify-center items-center'>
+          <video src={project.vidsrc} autoPlay muted loop className='w-full scale-y-[2] md:scale-y-[1.3] object-cover md:h-full md:rounded-lg md:object-contain'></video>
       </div>
       <div className='right   md:w-[35%] flex md:items-center justify-center h-[40%] md:h-full px-2 md:p-4'>
         <div className='w-full text-white  rounded-xl md:p-2 h-[85%]'>

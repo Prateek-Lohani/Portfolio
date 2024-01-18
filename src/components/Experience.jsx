@@ -1,30 +1,30 @@
 import React, { forwardRef, useState } from 'react'
-import { IoIosAddCircleOutline } from "react-icons/io";
+import Accordion from './Accordion';
 
 const Experience = forwardRef(({refer},ref) => {
 
     const data=[{
             id:0,
             designation:'System Engineer',
-            company:' @ Tata Consultancy Services',
+            company:' @Tata Consultancy Services',
             logo:'tcs.png',
             isOpen:false,
             from:'Jul 2021',
             to:'Present',
-            desc:'',
+            desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tenetur repellendus ex beatae molestias hic similique fuga officia nisi ipsum, dolorem ducimus tempore id debitis soluta asperiores provident sunt facere iste voluptatum ut est velit maxime! Eligendi omnis laudantium tenetur.',
             location:'Noida, India',
-            website:'https://www.tcs.com/'
+            website:'https://www.tcs.com'
     },{
         id:1,
             designation:'ASE Trainee (Web Developer Intern)',
-            company:' @ Infosys Ltd.',
+            company:' @Infosys Ltd.',
             logo:'infy.png',
             from:'Jan 2021',
             to:'May 2021',
             isOpen:false,
             desc:'',
             location:'Remote, India',
-            website:'https://www.infosys.com/'
+            website:'https://www.infosys.com'
     }];
 
     const [exp,setExp]=useState(data);
@@ -37,14 +37,8 @@ const Experience = forwardRef(({refer},ref) => {
             <p className='text-center text-white pb-8 md:pb-12 text-sm md:text-2xl w-[40%] py-6 leading-[30px] tracking-tight font-normal'>Let's walk you through my journey. <span className='md:text-5xl text-2xl'>🧑🏻‍💻</span></p></div>
             {
                 exp.map((experience)=>{
-                    return <div key={experience.id} className='flex p-4 flex-col items-center justify-center hover:cursor-pointer'>
-                        <div className='w-full md:w-[80vw] h-[10vh] flex rounded-lg overflow-hidden bg-slate-500/20 hover:bg-cyan-400/50 md:hover:bg-slate-500/20'>
-                            <h2 className='w-full md:w-[90vw] h-full flex items-center justify-center text-xs md:text-2xl tracking-wide font-semibold text-white'>{experience.designation} <span className='italic font-normal leading-9 ml-2'>{experience.company}</span></h2>
-                            <div className='hidden right w-[10vw] h-full bg-blue-400 rounded-full left-[3vw] relative md:flex items-center pl-6'>
-                            <IoIosAddCircleOutline size={'40px'} fontWeight={'900'} fill='white'/>
-                            </div>
-                        </div>
-                    </div>
+                    return <Accordion key={experience.id} {...experience}/>
+                    
                     
                 })
             }

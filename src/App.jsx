@@ -42,6 +42,7 @@ const scrollToSocials=()=>{
         <Nav scrollToSkills={scrollToSkills} scrollToExperience={scrollToExperience} scrollToResume={scrollToResume} scrollToProjects={scrollToProjects} scrollToSocials={scrollToSocials}/>
         <Hero />
         <Skills refer={skillRef}/>
+        
         <Projects refer={porjectRef}/>
         <Experience refer={experienceRef}/>
         <Resume refer={resumeRef}/>
