@@ -15,7 +15,7 @@ const Accordion = ({id,desc,designation,from,to,location,logo,website,company}) 
                             </div>
 
                         </div>
-                        {accordionToggle && <div className='w-full h-[50vh] md:w-[80vw] bg-slate-600/10 overflow-hidden md:h-[40vh] rounded-xl '>
+                        {accordionToggle && <div className='w-full h-fit md:w-[80vw] bg-slate-600/10 overflow-hidden md:h-[40vh] rounded-xl '>
                             <div className='container  md:flex p-4  w-full h-full'>
                                 <div className="left w-full h-[80%] md:h-full  md:w-[80%] ">
                                     <div className='top text-right text-sm md:text-md  border-b-2 pb-2  border-cyan-500 w-full md:h-[20%] px-2 md:px-8  md:flex justify-between items-center text-white'>
