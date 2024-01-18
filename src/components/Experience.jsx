@@ -11,7 +11,7 @@ const Experience = forwardRef(({refer},ref) => {
             isOpen:false,
             from:'Jul 2021',
             to:'Present',
-            desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tenetur repellendus ex beatae molestias hic similique fuga officia nisi ipsum, dolorem ducimus tempore id debitis soluta asperiores provident sunt facere iste voluptatum ut est velit maxime! Eligendi omnis laudantium tenetur.',
+            desc:'Demonstrated expertise in crafting a sophisticated monitoring dashboard to optimize log and failure monitoring processes for improved business efficiency. Proactively identified and implemented process improvements, reflecting a commitment to continuous enhancement. Proficient in Microsoft Azure, leveraging hands-on knowledge to enhance development and deployment processes. Adept at collaborative work, engaged with diverse teams, including designers and testers, fostering seamless communication and achieving project success.',
             location:'Noida, India',
             website:'https://www.tcs.com'
     },{
@@ -22,11 +22,11 @@ const Experience = forwardRef(({refer},ref) => {
             from:'Jan 2021',
             to:'May 2021',
             isOpen:false,
-            desc:'',
+            desc:'Completed 4-month intership at Infosys in Web Developement, acquiring valuable  practical experience in web development but also honed my teamwork and collaboration skills. The highlight of my contributions was developing the front end of a responsive travel website, showcasing my ability to create user-friendly interfaces. This experience has solidified my passion for web development and equipped me with a versatile skill set for future endeavors in the field.',
             location:'Remote, India',
             website:'https://www.infosys.com'
     }];
-
+    
     const [exp,setExp]=useState(data);
 
   return (
