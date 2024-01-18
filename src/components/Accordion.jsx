@@ -10,9 +10,9 @@ const Accordion = ({id,desc,designation,from,to,location,logo,website,company}) 
     <div key={id} className='flex p-4 flex-col items-center justify-center hover:cursor-pointer '>
                         <div onClick={()=>setAccordionToggle(!accordionToggle)} className='myexp w-full md:w-[80vw] h-[10vh] flex rounded-lg overflow-hidden bg-cyan-500/70 '>
                             <h2 className='w-full md:w-[90vw] h-full flex items-center justify-center text-xs md:text-2xl tracking-wide font-semibold text-white'>{designation} <span className='italic font-normal leading-9 ml-2'>{company}</span></h2>
-                            <div className='hidden right w-[10vw] h-full bg-blue-400 rounded-full left-[3vw] relative md:flex items-center pl-6'>
+{/*                             <div className='hidden right w-[10vw] h-full bg-blue-400 rounded-full left-[3vw] relative md:flex items-center pl-6'>
                             <IoIosAddCircleOutline size={'40px'} fontWeight={'900'} fill='white'/>
-                            </div>
+                            </div> */}
 
                         </div>
                         {accordionToggle && <div className='w-full h-fit md:w-[80vw] bg-slate-600/10 overflow-hidden md:h-[40vh] rounded-xl '>
