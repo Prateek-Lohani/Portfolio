@@ -62,6 +62,10 @@ const Skills = forwardRef(({refer}, ref) => {
         id:13,
         name:'Python',
         img:'python.png'
+    },{
+        id:14,
+        name:'Jest',
+        img:'jest.png'
     }
 ]
 
