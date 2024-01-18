@@ -29,7 +29,7 @@ const data=[
             <Form/>
         </div>
 
-        <div className="md:hidden pt-6 pb-2 flex justify-center gap-3  items-top">
+        <div className="md:hidden pt-8 flex justify-center gap-3  items-top">
                 {socials.map((social)=>{
                     return (<div key={social.id} className='w-[6%] rounded-xl  overflow-hidden'>
                         <img onClick={()=>window.open(`${social.href}`)} className='hover:cursor-pointer hover:scale-110 transition-all w-full rounded-md overflow-hidden  h-full object-cover bg-white' src={social.icon} alt={social.icon}/>
