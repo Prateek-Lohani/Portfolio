@@ -17,10 +17,10 @@ const Accordion = ({id,desc,designation,from,to,location,logo,website,company}) 
                         </div>
                         {accordionToggle && <div className='w-full h-fit md:w-[80vw] bg-slate-600/10 overflow-hidden md:h-[40vh] rounded-xl '>
                             <div className='container  md:flex p-4  w-full h-full'>
-                                <div className="left font-semibold w-full h-[80%] md:h-full  md:w-[80%] ">
+                                <div className="left  w-full h-[80%] md:h-full  md:w-[80%] ">
                                     <div className='top text-right text-sm md:text-md  border-b-2 pb-2  border-cyan-500 w-full md:h-[20%] px-2 md:px-8  md:flex justify-between items-center text-white'>
-                                        <h4 className='md:flex gap-1 md:justify-center items-center'><IoLocationSharp className='hidden md:flex' fill='white'/> {location}</h4>
-                                        <h4>{from} - {to}</h4>
+                                        <h4 className='md:flex font-semibold gap-1 md:justify-center items-center'><IoLocationSharp className='hidden md:flex' fill='white'/> {location}</h4>
+                                        <h4 className='font-semibold'>{from} - {to}</h4>
                                         <h4 onClick={()=>window.open(website)}>{website}</h4>
                                     </div>
                                     <div className='bottom w-full md:h-[80%] '>
