@@ -16,6 +16,10 @@ const data=[
         id:2,
         icon:'twitter.png',
         href:'https://twitter.com/PrateekLohani4'
+    },{
+        id:3,
+        icon:'gmail.png',
+        href:'mailto:prateeklohani@gmail.com'
     }
 ]
 
