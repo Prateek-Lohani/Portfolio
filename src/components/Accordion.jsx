@@ -21,7 +21,7 @@ const Accordion = ({id,desc,designation,from,to,location,logo,website,company}) 
                                     <div className='top text-right text-sm md:text-md  border-b-2 pb-2  border-cyan-500 w-full md:h-[20%] px-2 md:px-8  md:flex justify-between items-center text-white'>
                                         <h4 className='md:flex gap-1 md:justify-center items-center'><IoLocationSharp className='hidden md:flex' fill='white'/> {location}</h4>
                                         <h4>{from} - {to}</h4>
-                                        <h4>{website}</h4>
+                                        <h4 onClick={()=>window.open(website)}>{website}</h4>
                                     </div>
                                     <div className='bottom w-full md:h-[80%] '>
                                         <div className='expDescContainer w-full md:text-lg text-sm text-white h-full md:px-4 p-4 md:py-6'>
