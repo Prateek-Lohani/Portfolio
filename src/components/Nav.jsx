@@ -34,7 +34,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
 
     return (
     <nav className='fixed h-[8vh] text-white  w-full bg-black/50 z-[9998]'>
-        <section className='z-[9999] px-4 md:px-6 text-[2.5vh] uppercase font-semibold h-full flex items-center justify-between md:gap-20 '>
+        <section className='z-[9999] px-6 text-[2.5vh] uppercase font-semibold h-full flex items-center justify-between md:gap-20 '>
             {/* <h4 className='hover:cursor-pointer ' onClick={scrollToSkills}>Skills</h4>
             <h4 className='hover:cursor-pointer ' onClick={scrollToProjects}>Projects</h4>
             <h4 className='hover:cursor-pointer ' onClick={scrollToExperience}>Experience</h4>
@@ -50,7 +50,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
     <h2 className='bg-white/30 hover:cursor-pointer px-2 py-[0.2vh] rounded'>Resume</h2>
     <h2 className='hover:cursor-pointer'><TiThMenu/></h2>
 </div>
-<div className='mob-right md:hidden text-3xl flex gap-3'>
+<div className='mob-right md:hidden text-3xl flex gap-4'>
 <h3 className='bg-white/30 text-sm hover:cursor-pointer px-2 py-1 rounded'>Resume</h3>
 
 <h3 className='hover:cursor-pointer'><TiThMenu/></h3>

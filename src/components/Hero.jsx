@@ -16,10 +16,10 @@ const Hero = () => {
   })
 
   return (
-    <div className='pt-[12vh] bg-black md:p-20 w-full h-screen flex items-center justify-center'>
+    <div className='md:pt-[12vh] bg-black md:p-20 w-full h-screen flex items-center justify-center'>
         <div className="absolute blob w-[90%] h-[90%] md:w-[50%] md:h-[50%]"><iframe className='z-1 w-full h-full' src="https://lottie.host/embed/e7e8fd79-057d-4d26-8f12-76a2246d4e4e/bPWlgDWpSm.lottie"></iframe></div>
             
-            <div data-scroll data-scroll-speed="5" className="div-herotext w-full  py-8 overflow-hidden z-40 flex justify-center text-white text-2xl md:text-7xl">
+            <div data-scroll data-scroll-speed="5" className="div-herotext w-full  py-8 overflow-hidden z-40 flex justify-center text-white text-[7vw] md:text-7xl">
             <h2 className="hero-text ">
                 Responsive.
             </h2>
