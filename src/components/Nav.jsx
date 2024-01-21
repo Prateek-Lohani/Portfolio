@@ -33,7 +33,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
 
 
     return (
-    <nav className='fixed h-[8vh] text-white  w-full bg-black/50 z-[9998]'>
+    <nav className='fixed h-[8vh] text-white  w-full bg-[#2E587D] z-[9998]'>
         <section className='z-[9999] px-6 text-[2.5vh] uppercase font-semibold h-full flex items-center justify-between md:gap-20 '>
             {/* <h4 className='hover:cursor-pointer ' onClick={scrollToSkills}>Skills</h4>
             <h4 className='hover:cursor-pointer ' onClick={scrollToProjects}>Projects</h4>
