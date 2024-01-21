@@ -26,7 +26,7 @@ const data=[
  const [socials,setSocials]=useState(data);
  
     return (
-    <div ref={refer} className='w-full bg-cyan-600/70 md:pb-4 md:pt-[10vh] pb-0 p-4 md:h-fit  flex flex-col items-center justify-center relative'>
+    <div ref={refer} className='w-full  md:pb-4 md:pt-[10vh] pb-0 p-4 md:h-fit  flex flex-col items-center justify-center relative'>
         <h5 className='text-4xl text-white md:text-8xl font-extrabold p-2 font-[circular]'>Get in touch</h5>
         
         <div className="form-container md:w-[50%] w-[90vw] h-fit md:h-[70vh] ">
