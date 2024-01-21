@@ -50,8 +50,8 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
     <h2 className='bg-white/30 hover:cursor-pointer px-2 py-[0.2vh] rounded'>Resume</h2>
     <h2 className='hover:cursor-pointer'><TiThMenu/></h2>
 </div>
-<div className='mob-right md:hidden text-2xl flex gap-3'>
-<h3 className='bg-white/30 text-xs hover:cursor-pointer px-2 py-[0.2vh] rounded'>Resume</h3>
+<div className='mob-right md:hidden text-3xl flex gap-3'>
+<h3 className='bg-white/30 hover:cursor-pointer px-2 py-[0.2vh] rounded'>Resume</h3>
 
 <h3 className='hover:cursor-pointer'><TiThMenu/></h3>
 
