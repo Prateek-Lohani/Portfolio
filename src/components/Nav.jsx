@@ -41,7 +41,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
             <h5 className='hover:cursor-pointer ' onClick={scrollToResume}>Resume</h5>
             <h5 className='hover:cursor-pointer ' onClick={scrollToSocials}>Contact Me</h5> */}
 <div className="left flex items-center">
-    <h2 className='text-3xl'>𐌐𐌋</h2>
+    <h2 className='text-2xl md:text-3xl'>𐌐𐌋</h2>
 </div>
 <div className="right hidden md:flex justify-center items-center text-sm gap-6">
     <h2 className='hover:cursor-pointer'>About</h2>
@@ -51,7 +51,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
     <h2 className='hover:cursor-pointer'><TiThMenu/></h2>
 </div>
 <div className='mob-right md:hidden text-3xl flex gap-3'>
-<h3 className='bg-white/30 text-xl hover:cursor-pointer px-2 py-[0.2vh] rounded'>Resume</h3>
+<h3 className='bg-white/30 text-lg hover:cursor-pointer px-2 py-[0.2vh] rounded'>Resume</h3>
 
 <h3 className='hover:cursor-pointer'><TiThMenu/></h3>
 
