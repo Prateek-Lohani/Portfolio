@@ -6,43 +6,43 @@ import React from 'react'
 const Hero = () => {
   const tl=gsap.timeline();
   useGSAP(()=>{
-    tl.from('.hero-text',{
-      scale:0,
-      opacity:0,
-      delay:2,
-      duration:1.2,
-      stagger:0.6
-    })
+//     tl.from('.hero-text',{
+//       scale:0,
+//       opacity:0,
+//       delay:2,
+//       duration:1.2,
+//       stagger:0.6
+//     })
 
-    tl.to('.hero-text',{
-      scale:0,
-      opacity:0,
-      duration:.3,
-      stagger:0.1
-    })
+//     tl.to('.hero-text',{
+//       scale:0,
+//       opacity:0,
+//       duration:.3,
+//       stagger:0.1
+//     })
 
-    tl.from('.myintrodiv',{
-      display:'hidden',
-      duration:.5,
-      y:-100,
-      opacity:0
-  })
-  tl.from('.myintrodiv  h1',{
-    display:'hidden',
-    duration:.3,
-    y:-150,
-    opacity:0,
-    stagger:0.2
-})
+//     tl.from('.myintrodiv',{
+//       display:'hidden',
+//       duration:.5,
+//       y:-100,
+//       opacity:0
+//   })
+//   tl.from('.myintrodiv  h1',{
+//     display:'hidden',
+//     duration:.3,
+//     y:-150,
+//     opacity:0,
+//     stagger:0.2
+// })
 
-tl.from('.mobcat',{
-  opacity:0,
-  duration:0.2
-})
+// tl.from('.mobcat',{
+//   opacity:0,
+//   duration:0.2
+// })
 
-tl.from('.aboutmediv',{
-  opacity:0
-})
+// tl.from('.aboutmediv',{
+//   opacity:0
+// })
   })
 
   return (
@@ -60,7 +60,7 @@ tl.from('.aboutmediv',{
             </div>
 
 
-            <div  className="left md:pt-12 w-[85%] h-[30%] myintrodiv text-white  absolute top-[30%] md:flex flex-col justify-top  md:justify-top text-4xl md:text-6xl md:w-[60%] md:h-[60%]">
+            <div  className="left md:pt-12 w-[85%] h-[30%] myintrodiv text-white  absolute top-[22%] md:flex flex-col justify-top  md:justify-top text-4xl md:text-6xl md:w-[60%] md:h-[60%]">
                 <h2 className='md:font-semibold text-center mb-4 md:mb-0'>Hey There!<br/><p>I'm,</p></h2>
                 
                 <div className="name flex md:gap-3 justify-center text-[20vw] gap-1 mt-10 md:mt-0 md:text-[10vw] font-cursive">
@@ -79,11 +79,11 @@ tl.from('.aboutmediv',{
                 </div>
                 
             </div>
-            <div className='mobcat md:hidden absolute top-[50%]'>
+            <div className='mobcat md:hidden absolute top-[40%]'>
                 <iframe  src="https://lottie.host/embed/7df00b48-baaa-4242-b60f-814dd2a47500/ekha6wS0n4.lottie"></iframe>
 
                     </div>
-            <div className="md:top-[70%] top-[70%] w-[80%] text-lg md:text-2xl md:w-[45%] text-white aboutmediv absolute">
+            <div className="md:top-[70%] top-[55%] w-[80%] text-lg md:text-2xl md:w-[45%] text-white aboutmediv absolute">
               <p>I am an Engineer at <span className='hover:text-[#4A48AA] hover:cursor-pointer duration-200'>Tata Consultancy Services</span>  with a background of computer science, I am always passionate about crafting immersive and engaging experiences, playing my tiny little part in shaping the future of the web.</p>
             </div>
     </div>
