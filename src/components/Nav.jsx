@@ -33,7 +33,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
 
 
     return (
-    <nav className='fixed h-[8vh] text-white  w-full bg-[#2E587D] z-[9998]'>
+    <nav className='fixed h-[8vh] text-white  w-full bg-[#151515] z-[9998]'>
         <section className='z-[9999] px-6 text-[2.5vh] uppercase font-semibold h-full flex items-center justify-between md:gap-20 '>
             {/* <h4 className='hover:cursor-pointer ' onClick={scrollToSkills}>Skills</h4>
             <h4 className='hover:cursor-pointer ' onClick={scrollToProjects}>Projects</h4>
@@ -47,18 +47,27 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
     <h2 className='hover:cursor-pointer'>About</h2>
     <h2 className='hover:cursor-pointer'>Projects</h2>
     <h2 className='hover:cursor-pointer'>Contact Me</h2>
-    <h2 className='bg-white/30 hover:cursor-pointer px-2 py-[0.2vh] rounded'>Resume</h2>
-    <h2 className='hover:cursor-pointer'><TiThMenu/></h2>
+    <h2 className='bg-[#4A48AA] text-white font-bold hover:cursor-pointer px-2 py-[0.2vh] rounded'>Resume</h2>
+    <h2 className='md:text-2xl hover:cursor-pointer'><TiThMenu/></h2>
 </div>
 <div className='mob-right md:hidden text-3xl flex gap-4'>
-<h3 className='bg-white/30 text-sm hover:cursor-pointer px-2 py-1 rounded'>Resume</h3>
+<h3 className='bg-[#4A48AA] text-white text-sm hover:cursor-pointer px-2 py-1 rounded'>Resume</h3>
 
-<h3 className='hover:cursor-pointer'><TiThMenu/></h3>
+<h3 className='hover:cursor-pointer' onClick={()=>setMenuOpen(!menuOpen)}><TiThMenu/></h3>
 
 </div>
             
             </section>
-            
+
+
+            {
+                menuOpen && <section className='overflow-hidden flex items-center flex-col w-[60vw] h-[40vh] bg-red-600 absolute right-0'>
+                                <h2>About</h2>
+                                <h2>Projects</h2>
+                                <h2>Skills</h2>
+                                <h2>Contact Me</h2>
+                </section>
+}
             {/* {
                 menuOpen ? <>
                 <section className='md:hidden flex items-center justify-start px-4 py-2'>

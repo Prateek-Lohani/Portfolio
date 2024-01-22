@@ -3,6 +3,11 @@
   src: url('./assets/CircularStd-Black.678b81a5.ttf');
 }
 
+@font-face {
+  font-family: oranged;
+  src: url('./assets/orange.ttf');
+}
+
 
 *{
   margin:0;
@@ -46,4 +51,8 @@ body::-webkit-scrollbar-thumb{
 
 textarea {
   resize: none;
+}
+
+.name h1{
+  font-family:oranged;
 }
