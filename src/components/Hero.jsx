@@ -79,11 +79,11 @@ const Hero = () => {
                 </div>
                 
             </div>
-            <div className='mobcat md:hidden absolute top-[40%]'>
+            <div className='mobcat md:hidden absolute top-[42%]'>
                 <iframe  src="https://lottie.host/embed/7df00b48-baaa-4242-b60f-814dd2a47500/ekha6wS0n4.lottie"></iframe>
 
                     </div>
-            <div className="md:top-[70%] top-[65vh] w-[80%] text-lg md:text-2xl md:w-[45%] text-white aboutmediv absolute">
+            <div className="md:top-[70%] top-[60vh] w-[80%] text-lg md:text-2xl md:w-[45%] text-white aboutmediv absolute">
               <p>I am an Engineer at <span className='hover:text-[#4A48AA] hover:cursor-pointer duration-200'>Tata Consultancy Services</span>  with a background of computer science, I am always passionate about crafting immersive and engaging experiences, playing my tiny little part in shaping the future of the web.</p>
             </div>
     </div>
