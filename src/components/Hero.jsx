@@ -6,43 +6,43 @@ import React from 'react'
 const Hero = () => {
   const tl=gsap.timeline();
   useGSAP(()=>{
-//     tl.from('.hero-text',{
-//       scale:0,
-//       opacity:0,
-//       delay:2,
-//       duration:1.2,
-//       stagger:0.6
-//     })
+    tl.from('.hero-text',{
+      scale:0,
+      opacity:0,
+      delay:2,
+      duration:1.2,
+      stagger:0.6
+    })
 
-//     tl.to('.hero-text',{
-//       scale:0,
-//       opacity:0,
-//       duration:.3,
-//       stagger:0.1
-//     })
+    tl.to('.hero-text',{
+      scale:0,
+      opacity:0,
+      duration:.3,
+      stagger:0.1
+    })
 
-//     tl.from('.myintrodiv',{
-//       display:'hidden',
-//       duration:.5,
-//       y:-100,
-//       opacity:0
-//   })
-//   tl.from('.myintrodiv  h1',{
-//     display:'hidden',
-//     duration:.3,
-//     y:-150,
-//     opacity:0,
-//     stagger:0.2
-// })
+    tl.from('.myintrodiv',{
+      display:'hidden',
+      duration:.5,
+      y:-100,
+      opacity:0
+  })
+  tl.from('.myintrodiv  h1',{
+    display:'hidden',
+    duration:.3,
+    y:-150,
+    opacity:0,
+    stagger:0.2
+})
 
-// tl.from('.mobcat',{
-//   opacity:0,
-//   duration:0.2
-// })
+tl.from('.mobcat',{
+  opacity:0,
+  duration:0.2
+})
 
-// tl.from('.aboutmediv',{
-//   opacity:0
-// })
+tl.from('.aboutmediv',{
+  opacity:0
+})
   })
 
   return (
