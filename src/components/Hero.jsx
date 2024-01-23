@@ -84,7 +84,7 @@ tl.from('.aboutmediv',{
 
                     </div>
             <div className="md:top-[70%] top-[60vh] p-5 md:p-0 text-[4vw] md:text-2xl md:w-[45%] text-white aboutmediv absolute">
-              <p>I am an Engineer at <span className='hover:text-[#4A48AA] font-thin hover:cursor-pointer duration-200'>Tata Consultancy Services</span>  with a background of UI Development, I am always passionate about crafting immersive and engaging experiences, playing my tiny little part in shaping the future of the web.</p>
+              <p>I am an Engineer at <span className='hover:text-[#605ecd] font-thin hover:cursor-pointer duration-200'>Tata Consultancy Services</span>  with a background of UI Development, I am always passionate about crafting immersive and engaging experiences, playing my tiny little part in shaping the future of the web.</p>
             </div>
     </div>
   )

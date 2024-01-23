@@ -61,7 +61,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
 
 
             {
-                menuOpen && <section className='overflow-hidden flex items-center flex-col w-[60vw] h-[40vh] bg-red-600 absolute right-0'>
+                menuOpen && <section className='overflow-hidden flex items-center flex-col w-[100vw] h-[80vh] bg-red-600 absolute right-0'>
                                 <h2>About</h2>
                                 <h2>Projects</h2>
                                 <h2>Skills</h2>
