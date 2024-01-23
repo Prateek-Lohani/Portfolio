@@ -60,10 +60,10 @@ tl.from('.aboutmediv',{
             </div>
 
 
-            <div  className="left md:pt-12 w-[85%] h-[30%] myintrodiv text-white  absolute top-[22%] md:flex flex-col justify-top  md:justify-top text-4xl md:text-6xl md:w-[60%] md:h-[60%]">
-                <h2 className='md:font-semibold text-center mb-4 md:mb-0'>Hey There!<br/><p>I'm,</p></h2>
+            <div  className="left md:pt-12 w-[85%] h-[30%] myintrodiv text-white  absolute top-[22vh] md:top-[21vh] md:flex flex-col justify-top  md:justify-top text-4xl md:text-6xl md:w-[60%] md:h-[60%]">
+                <h2 className='md:font-[900] uppercase text-center mb-4 md:mb-0'>Hey there!<br/><p className='md:mt-4'>I'm,</p></h2>
                 
-                <div className="name flex md:gap-3 justify-center text-[20vw] gap-1 mt-10 md:mt-0 md:text-[10vw] font-cursive">
+                <div className="name flex md:gap-3 justify-center text-[20vw] gap-1 mt-10 md:mt-2 md:text-[10vw] font-cursive">
                     <h1>P</h1>
                     <h1>R</h1>
                     <h1>A</h1>
@@ -83,8 +83,8 @@ tl.from('.aboutmediv',{
                 <iframe  src="https://lottie.host/embed/7df00b48-baaa-4242-b60f-814dd2a47500/ekha6wS0n4.lottie"></iframe>
 
                     </div>
-            <div className="font-semibold md:top-[70%] top-[60vh] p-5 md:p-0 text-[4vw] md:text-2xl md:w-[45%] text-white aboutmediv absolute">
-              <p>I am an Engineer at <span className='hover:text-[#605ecd] font-thin hover:cursor-pointer duration-200'>Tata Consultancy Services</span>  with a background of UI Development, I am always passionate about crafting immersive and engaging experiences, playing my tiny little part in shaping the future of the web.</p>
+            <div className="md:tracking-wide font-semibold md:top-[68vh] top-[60vh] p-5 md:p-0 text-[4vw] md:text-[2.3vh] md:w-[57%] text-white aboutmediv absolute">
+              <p>I am an Engineer at <span className='hover:text-[#605ecd] font-thin hover:cursor-pointer duration-500'>Tata Consultancy Services</span>  with a background of UI Development, I am always passionate about crafting immersive and engaging experiences, playing my tiny little part in shaping the future of the web.</p>
             </div>
     </div>
   )
