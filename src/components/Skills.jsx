@@ -82,7 +82,7 @@ const Skills = forwardRef(({refer}, ref) => {
 
 
         </div>
-        <div ref={reference} className='w-[100%] md:w-[80%] h-[90%] md:p-8 p-3 mx-auto bg-[#151515] relative md:border md:border-cyan-400 rounded-lg grid grid-cols-3 md:flex md:justify-center md:items-center flex-wrap md:gap-8 gap-3'>
+        <div ref={reference} className='w-[100%] md:w-[80%] h-[90%] md:p-8 p-3 mx-auto bg-[#151515] relative  rounded-lg grid grid-cols-3 md:flex md:justify-center md:items-center flex-wrap md:gap-8 gap-3'>
 
 
         {skills.map((skill)=>{
