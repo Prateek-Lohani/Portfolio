@@ -6,43 +6,44 @@ import React from 'react'
 const Hero = () => {
   const tl=gsap.timeline();
   useGSAP(()=>{
-//     tl.from('.hero-text',{
-//       scale:0,
-//       opacity:0,
-//       delay:2,
-//       duration:1.2,
-//       stagger:0.6
-//     })
+    tl.from('.hero-text',{
+      scale:0,
+      opacity:0,
+      delay:2,
+      duration:1.2,
+      stagger:0.6
+    })
 
-//     tl.to('.hero-text',{
-//       scale:0,
-//       opacity:0,
-//       duration:.3,
-//       stagger:0.1
-//     })
+    tl.to('.hero-text',{
+      scale:0,
+      opacity:0,
+      duration:.3,
+      stagger:0.1
+    })
 
-//     tl.from('.myintrodiv',{
-//       display:'hidden',
-//       duration:.5,
-//       y:-100,
-//       opacity:0
-//   })
-//   tl.from('.myintrodiv  h1',{
-//     display:'hidden',
-//     duration:.3,
-//     y:-150,
-//     opacity:0,
-//     stagger:0.2
-// })
+    tl.from('.myintrodiv',{
+      display:'hidden',
+      duration:.5,
+      y:-100,
+      opacity:0
+  })
+  tl.from('.myintrodiv  h1',{
+    display:'hidden',
+    duration:.3,
+    y:-150,
+    opacity:0,
+    stagger:0.2
+})
 
-// tl.from('.mobcat',{
-//   opacity:0,
-//   duration:0.2
-// })
+tl.from('.mobcat',{
+  opacity:0,
+  duration:0.2
+})
 
-// tl.from('.aboutmediv',{
-//   opacity:0
-// })
+tl.from('.aboutmediv,.scrollbtn',{
+  opacity:0
+})
+
   })
 
   return (
@@ -63,7 +64,7 @@ const Hero = () => {
             <div  className="left md:pt-12 w-[85%] h-[30%] myintrodiv text-white  absolute top-[22vh] md:top-[21vh] md:flex flex-col justify-top  md:justify-top text-4xl md:text-6xl md:w-[60%] md:h-[60%]">
                 <h2 className='md:font-[900] uppercase text-center mb-4 md:mb-0'>Hey there!<br/><p className='md:mt-4'>I'm,</p></h2>
                 
-                <div className="bg-red-400 name flex md:gap-3 justify-center text-[20vw] gap-1 mt-10 md:mt-2 md:text-[10vw] font-cursive">
+                <div className=" name flex md:gap-3 justify-center text-[20vw] gap-1 mt-10 md:mt-2 md:text-[10vw] font-cursive">
                     <h1>P</h1>
                     <h1>R</h1>
                     <h1>A</h1>
@@ -85,6 +86,9 @@ const Hero = () => {
                     </div>
             <div className=" md:flex md:justify-center md:tracking-wide font-semibold md:top-[72vh] top-[60vh] p-5 md:p-0 text-[4vw] md:text-[2.3vh] md:w-full text-white aboutmediv absolute">
               <p className='md:w-[60%] md:px-4'>I am an Engineer at <span className='hover:text-[#605ecd] font-thin hover:cursor-pointer duration-500'>Tata Consultancy Services</span>  with a background of UI Development, I am always passionate about crafting immersive and engaging experiences, playing my tiny little part in shaping the future of the web.</p>
+            </div>
+            <div className='scrollbtn hidden md:flex md:absolute top-[85vh] left-[50vw]  -translate-x-[50%] w-[2.5vw] h-[2.5vw]'>
+            <iframe className='w-full h-full object-cover' src="https://lottie.host/embed/d198cba3-4305-4774-b0d3-572a5d4a2cd5/bJDk4jNYPH.lottie"></iframe>
             </div>
     </div>
   )
