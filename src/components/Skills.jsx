@@ -76,7 +76,7 @@ const Skills = () => {
         <div className='flex justify-center items-center flex-col text-white'>
         <h5 className='text-4xl md:text-9xl font-[900] p-2 '>Skills</h5>
         
-        <p className='pb-8 md:pb-12 md:w-[50%] w-[75%] text-center text-sm md:text-2xl py-6  tracking-tight font-normal'>
+        <p className='pb-8 md:pb-12 md:w-[50%] w-[80%] text-center text-[4vw] md:text-2xl py-6  font-normal'>
             You can't box these skills into a simple list, they are an explosion display of talent in action. But for the sake of formality, check the skills below.
         </p>
 
