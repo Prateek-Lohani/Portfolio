@@ -1,8 +1,7 @@
-import React, { forwardRef,useRef,useState } from 'react'
-import LocomotiveScroll from 'locomotive-scroll';
+import React, { useState } from 'react'
 
 
-const Skills = forwardRef(({refer}, ref) => {
+const Skills = () => {
 
     const skillsdata=[{
         id:0,
@@ -70,33 +69,43 @@ const Skills = forwardRef(({refer}, ref) => {
 
     const [skills,setSkills]=useState(skillsdata);
 
-    const reference=useRef();
+ 
     return (
-    <div ref={refer} className=' w-full md:pt-[10vh] h-fit p-4 relative'>
+    <div  className=' w-full md:pt-[10vh] h-fit p-4 relative'>
        
         <div className='flex justify-center items-center flex-col text-white'>
-        <h5 className='text-4xl md:text-8xl font-extrabold p-2 font-[circular]'>Skills</h5>
+        <h5 className='text-4xl md:text-9xl font-[900] p-2 '>Skills</h5>
+        
         <p className='pb-8 md:pb-12 md:w-[50%] w-[75%] text-center text-sm md:text-2xl py-6  tracking-tight font-normal'>
             You can't box these skills into a simple list, they are an explosion display of talent in action. But for the sake of formality, check the skills below.
         </p>
 
 
         </div>
-        <div ref={reference} className='w-[100%] md:w-[80%] h-[90%] md:p-8 p-3 mx-auto bg-[#151515] relative  rounded-lg grid grid-cols-3 md:flex md:justify-center md:items-center flex-wrap md:gap-8 gap-3'>
+        <div  className=' w-[100%] md:w-[100%] h-[90%] md:p-6  mx-auto bg-[#151515] relative  rounded-lg md:flex md:justify-start md:items-center md:gap-8 gap-3'>
 
-
+        <div className="left h-fit gap-2 w-[60%] md:gap-4 grid grid-cols-3 md:flex flex-wrap items-center justify-center">
         {skills.map((skill)=>{
-            return <div key={skill.id}  className='hover:scale-[99%] p-4 bottom-0 w-[100%] shadow-[0px_0px_4px_2px_rgba(109,40,217)] shadow-cyan-400/50 md:w-[200px] h-[12vh] md:h-[200px] bg-[#100F10] rounded-lg hover:cursor-pointer flex flex-col justify-center items-center gap-2'>
-                <div className='w-[85%] md:w-[60%] md:h-[60%] h-[60%] overflow-hidden'><img className='object-contain md:object-cover w-full h-full rounded-lg' src={skill.img} alt="logo" /></div>
+            return <div key={skill.id}  className='hover:scale-[99%] p-4 bottom-0 w-[100%] border border-gray-100/30 md:w-[200px] hover:border-[#4A48AA] duration-500 h-[12vh] md:h-[200px] bg-[#100F10] rounded-lg hover:cursor-pointer flex flex-col justify-center items-center gap-3'>
+                <div className='w-[85%] md:w-[50%] md:h-[50%] h-[60%] overflow-hidden'><img className='object-contain md:object-cover w-full h-full rounded-lg' src={skill.img} alt="logo" /></div>
                 <div className='w-full md:w-fit h-[20%]  text-center text-white text-xs md:text-xl font-semibold'>{skill.name}</div>
             </div>
             
         })}
+        </div>
+        <div className='right w-[40%] h-[60vh] hidden md:flex'>
+        <iframe className='w-full h-full object-cover' src="https://lottie.host/embed/28540dca-ac94-448f-9088-91dbf0fbbb06/iO8ZE7aB3f.lottie"></iframe>
+        </div>
 
         </div>
+       
     </div>
   )
-});
+};
 
 export default Skills
+
+
+
+
 
