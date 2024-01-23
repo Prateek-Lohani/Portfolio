@@ -79,7 +79,7 @@ tl.from('.aboutmediv',{
                 </div>
                 
             </div>
-            <div className='mobcat md:hidden absolute top-[42%]'>
+            <div className='mobcat md:hidden absolute top-[45%]'>
                 <iframe  src="https://lottie.host/embed/7df00b48-baaa-4242-b60f-814dd2a47500/ekha6wS0n4.lottie"></iframe>
 
                     </div>
