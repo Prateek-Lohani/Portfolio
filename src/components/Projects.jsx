@@ -14,7 +14,7 @@ const Projects = forwardRef(({refer},ref) => {
         <div className='flex justify-center items-center flex-col text-white'>
         <h5 className='text-4xl md:text-8xl font-extrabold p-2 font-[circular]'>Projects</h5>
         <p className='text-center pb-8 md:pb-12 md:w-[50%] w-[75%] text-sm md:text-2xl py-6 leading-[30px] tracking-tight font-normal'>
-            Creating Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Bringing ideas to life with a touch of innovation, my project section is a canvas of skills, passion, and results.
         </p>
         </div>
         <div  className='w-[90%] md:w-[80%] h-[90%] md:p-8 p-4 mx-auto bg-slate-500/20 relative border border-cyan-400 rounded-lg flex md:justify-center md:items-center md:flex-wrap md:gap-8 gap-6 overflow-x-auto md:overflow-hidden' id='projectscroll'>
