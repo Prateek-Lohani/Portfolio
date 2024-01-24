@@ -82,9 +82,9 @@ const Skills = () => {
 
 
         </div>
-        <div  className=' w-[100%] md:w-[100%] h-[90%] md:p-6  mx-auto bg-[#151515] relative  rounded-lg md:flex md:justify-start md:items-center md:gap-8 gap-3'>
+        <div  className=' w-[100%] md:w-[100%] h-[90%] md:p-6  mx-auto bg-[#151515] relative  rounded-lg md:flex md:justify-center md:items-center  gap-3'>
 
-        <div className="left h-fit gap-2 md:w-[80%] w-[100%] md:gap-4 grid grid-cols-3 px-4  md:flex flex-wrap items-center justify-center ">
+        <div className="left h-fit gap-2  md:w-[80%] w-[100%] md:gap-6 grid grid-cols-3 px-4  md:flex flex-wrap items-center justify-center">
         {skills.map((skill)=>{
             return <div key={skill.id}  className=' hover:scale-[99%]  bottom-0 w-[100%] border border-gray-100/30 md:w-[10vw] hover:border-[#4A48AA] duration-500 h-[12vh] md:h-[10vw] bg-[#100F10] rounded-lg hover:cursor-pointer flex flex-col justify-center items-center'>
                 <div className='flex items-center justify-center w-[85%] md:w-[100%] md:h-[70%] h-[60%] overflow-hidden'><img className='object-cover md:object-cover w-[5vh] md:w-[5vw] rounded-lg' src={skill.img} alt="logo" /></div>
@@ -95,9 +95,9 @@ const Skills = () => {
             
         })}
         </div>
-        <div className='right w-[40%] h-[60vh] hidden md:flex'>
+        {/* <div className='right w-[40%] h-[60vh] hidden md:flex'>
         <iframe className='w-full h-full object-cover' src="https://lottie.host/embed/28540dca-ac94-448f-9088-91dbf0fbbb06/iO8ZE7aB3f.lottie"></iframe>
-        </div>
+        </div> */}
 
         </div>
        
