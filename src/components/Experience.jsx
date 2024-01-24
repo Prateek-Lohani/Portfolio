@@ -32,7 +32,7 @@ const Experience = forwardRef(({refer},ref) => {
   return (
     <div ref={refer} className=' w-full h-fit p-4 relative md:pt-[10vh] '>
         <div className='w-full h-full'>
-            <h1 className='text-4xl md:text-8xl font-[circular] text-white text-center'>Experience</h1>
+            <h1 className='text-5xl md:text-9xl text-white text-center'>Experience</h1>
             <div className='w-full flex justify-center'>
             <p className='text-center text-white pb-8 md:pb-12 text-sm md:text-2xl w-[40%] py-6 leading-[30px] tracking-tight font-normal'>Let's walk you through my journey. <span className='md:text-5xl text-2xl'>🧑🏻‍💻</span></p></div>
             {

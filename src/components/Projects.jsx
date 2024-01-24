@@ -12,7 +12,7 @@ const Projects = forwardRef(({refer},ref) => {
   return (
     <div ref={refer} className='w-full h-fit md:pt-[10vh] p-4 relative'>
         <div className='flex justify-center items-center flex-col text-white'>
-        <h5 className='text-4xl md:text-8xl font-extrabold p-2 font-[circular]'>Projects</h5>
+        <h5 className='text-5xl md:text-9xl font-extrabold p-2 '>Projects</h5>
         <p className='text-center pb-8 md:pb-12 md:w-[50%] w-[75%] text-sm md:text-2xl py-6 leading-[30px] tracking-tight font-normal'>
         Bringing ideas to life with a touch of innovation, my project section is a canvas of skills, passion, and results.
         </p>
