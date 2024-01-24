@@ -84,9 +84,9 @@ tl.from('.aboutmediv,.scrollbtn',{
                 <iframe  src="https://lottie.host/embed/7df00b48-baaa-4242-b60f-814dd2a47500/ekha6wS0n4.lottie"></iframe>
 
                     </div>
-            {/* <div className=" md:flex md:justify-center md:tracking-wide font-semibold md:top-[72vh] top-[60vh] p-5 md:p-0 text-[4vw] md:text-[2.3vh] md:w-full text-white aboutmediv absolute">
+            <div className=" md:flex md:justify-center md:tracking-wide font-semibold md:top-[75vh] top-[60vh] p-5 md:p-0 text-[4vw] md:text-[2.3vh] md:w-full text-white aboutmediv absolute">
               <p className='md:w-[60%] md:px-4 md:text-center'>I am an Engineer at <span className='hover:text-[#605ecd] font-thin hover:cursor-pointer duration-500'>Tata Consultancy Services</span>  with a background of UI Development, I am always passionate about crafting immersive and engaging experiences, playing my tiny little part in shaping the future of the web.</p>
-            </div> */}
+            </div>
             <div className='scrollbtn hidden md:flex md:absolute top-[90vh] left-[50vw]  -translate-x-[50%] w-[2.5vw] h-[2.5vw]'>
             <iframe className='w-full h-full object-cover' src="https://lottie.host/embed/d198cba3-4305-4774-b0d3-572a5d4a2cd5/bJDk4jNYPH.lottie"></iframe>
             </div>

@@ -86,9 +86,11 @@ const Skills = () => {
 
         <div className="left h-fit gap-2 md:w-[80%] w-[100%] md:gap-4 grid grid-cols-3 px-4  md:flex flex-wrap items-center justify-center ">
         {skills.map((skill)=>{
-            return <div key={skill.id}  className=' hover:scale-[99%]  bottom-0 w-[100%] border border-gray-100/30 md:w-[10vw] hover:border-[#4A48AA] duration-500 h-[12vh] md:h-[10vw] bg-[#100F10] rounded-lg hover:cursor-pointer flex flex-col justify-center items-center gap-3 md:gap-6'>
-                <div className='w-[85%] md:w-[50%] md:h-[50%] h-[60%] overflow-hidden'><img className='object-contain md:object-cover w-full h-full rounded-lg' src={skill.img} alt="logo" /></div>
-                <div className='w-full md:w-fit h-[20%]  text-center text-white text-xs md:text-[1.65vh] font-semibold'>{skill.name}</div>
+            return <div key={skill.id}  className=' hover:scale-[99%]  bottom-0 w-[100%] border border-gray-100/30 md:w-[10vw] hover:border-[#4A48AA] duration-500 h-[12vh] md:h-[10vw] bg-[#100F10] rounded-lg hover:cursor-pointer flex flex-col justify-center items-center'>
+                <div className='flex items-center justify-center w-[85%] md:w-[100%] md:h-[70%] h-[60%] overflow-hidden'><img className='object-cover md:object-cover w-[5vh] md:w-[5vw] rounded-lg' src={skill.img} alt="logo" /></div>
+                <div className='flex items-center justify-center w-full  md:h-[30%] md:w-full h-[20%]  text-center text-white text-xs md:text-[1.65vh] font-semibold'>
+                   <p> {skill.name} </p>
+                    </div>
             </div>
             
         })}
