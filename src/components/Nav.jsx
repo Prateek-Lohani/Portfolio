@@ -51,7 +51,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
     <h2 className='md:text-2xl hover:cursor-pointer'><TiThMenu/></h2>
 </div>
 <div className='mob-right md:hidden text-3xl flex gap-4'>
-<h3 className='bg-[#4A48AA] text-white text-sm hover:cursor-pointer px-2 py-1 rounded'>Resume</h3>
+<h3 onClick={()=>window.open('https://drive.google.com/file/d/1PukcDuNcwvHHFI1ggolL8ybMKt4VMxmC/view')} className='bg-[#4A48AA] text-white text-sm hover:cursor-pointer px-2 py-1 rounded'>Resume</h3>
 
 <h3 className='hover:cursor-pointer' onClick={()=>setMenuOpen(!menuOpen)}><TiThMenu/></h3>
 

@@ -1,9 +1,12 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import React from 'react'
+import React,{useState} from 'react'
 
 
 const Hero = () => {
+
+  
+
   const tl=gsap.timeline();
   useGSAP(()=>{
     tl.from('.hero-text',{
@@ -90,11 +93,14 @@ tl.from('.aboutmediv,.scrollbtn',{
             <div className='scrollbtn hidden md:flex md:absolute top-[90vh] left-[50vw]  -translate-x-[50%] w-[2.5vw] h-[2.5vw]'>
             <iframe className='w-full h-full object-cover' src="https://lottie.host/embed/d198cba3-4305-4774-b0d3-572a5d4a2cd5/bJDk4jNYPH.lottie"></iframe>
             </div>
+            
     </div>
   )
 }
 
 export default Hero
+
+
 
 
 {/* <div className='w-full h-full rounded-lg p-10 '>

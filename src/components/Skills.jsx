@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import { motion } from 'framer-motion';
 
 const Skills = () => {
 
@@ -94,11 +94,10 @@ const Skills = () => {
             </div>
             
         })}
-        </div>
-        {/* <div className='right w-[40%] h-[60vh] hidden md:flex'>
-        <iframe className='w-full h-full object-cover' src="https://lottie.host/embed/28540dca-ac94-448f-9088-91dbf0fbbb06/iO8ZE7aB3f.lottie"></iframe>
-        </div> */}
 
+
+        </div>
+      
         </div>
        
     </div>
@@ -106,6 +105,8 @@ const Skills = () => {
 };
 
 export default Skills
+
+
 
 
 

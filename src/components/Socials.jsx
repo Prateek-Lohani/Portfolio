@@ -27,13 +27,13 @@ const data=[
  
     return (
     <div ref={refer} className='w-full  md:pb-4 md:pt-[10vh] pb-0 p-4 md:h-fit  flex flex-col items-center justify-center relative'>
-        <h5 className='text-4xl text-white md:text-8xl font-extrabold p-2 font-[circular]'>Get in touch</h5>
+        <h5 className='text-5xl md:text-9xl font-[900] text-white p-2'>Get in touch</h5>
         
         <div className="form-container md:w-[50%] w-[90vw] h-fit md:h-[70vh] ">
             <Form/>
         </div>
 
-        <div className="md:hidden pt-8 flex justify-center gap-3  items-top">
+        <div className="md:hidden pt-8 pb-3 flex justify-center gap-3  items-top">
                 {socials.map((social)=>{
                     return (<div key={social.id} className='w-[6%] rounded-xl  overflow-hidden'>
                         <img onClick={()=>window.open(`${social.href}`)} className='hover:cursor-pointer hover:scale-110 transition-all w-full rounded-md overflow-hidden  h-full object-cover bg-white' src={social.icon} alt={social.icon}/>

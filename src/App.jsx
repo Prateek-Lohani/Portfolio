@@ -3,6 +3,7 @@ import './App.css';
 import Loading from './components/Loading';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Project from './components/Project';
 
 const Hero = lazy(() => import('./components/Hero'));
 const Skills = lazy(() => import('./components/Skills'));
@@ -43,10 +44,11 @@ const scrollToSocials=()=>{
         <Nav scrollToSkills={scrollToSkills} scrollToExperience={scrollToExperience} scrollToResume={scrollToResume} scrollToProjects={scrollToProjects} scrollToSocials={scrollToSocials}/>
         <Hero />
         <Skills refer={skillRef}/>
+        {/* <Project/> */}
         
         <Projects refer={porjectRef}/>
         <Experience refer={experienceRef}/>
-        <Resume refer={resumeRef}/>
+        {/* <Resume refer={resumeRef}/> */}
         <Socials refer={socailsRef}/>
         <Footer/>
       </div>
