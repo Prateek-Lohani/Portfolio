@@ -44,16 +44,16 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
     <h2 className='text-2xl md:text-3xl'>𐌐𐌋</h2>
 </div>
 <div className="right hidden md:flex justify-center items-center text-sm gap-6">
-    <h2 className='hover:cursor-pointer'>About</h2>
+    {/* <h2 className='hover:cursor-pointer'>About</h2>
     <h2 className='hover:cursor-pointer'>Projects</h2>
-    <h2 className='hover:cursor-pointer'>Contact Me</h2>
+    <h2 className='hover:cursor-pointer'>Contact Me</h2> */}
     <h2 className='bg-[#4A48AA] text-white font-bold hover:cursor-pointer px-2 py-[0.2vh] rounded'>Resume</h2>
-    <h2 className='md:text-2xl hover:cursor-pointer'><TiThMenu/></h2>
+    {/* <h2 className='md:text-2xl hover:cursor-pointer'><TiThMenu/></h2> */}
 </div>
 <div className='mob-right md:hidden text-3xl flex gap-4'>
 <h3 onClick={()=>window.open('https://drive.google.com/file/d/1PukcDuNcwvHHFI1ggolL8ybMKt4VMxmC/view')} className='bg-[#4A48AA] text-white text-sm hover:cursor-pointer px-2 py-1 rounded'>Resume</h3>
 
-{/* <h3 className='hover:cursor-pointer' onClick={()=>setMenuOpen(!menuOpen)}><TiThMenu/></h3>
+{/* <h3 className='hover:cursor-pointer' onClick={()=>setMenuOpen(!menuOpen)}><TiThMenu/></h3> */}
 
 </div>
             
@@ -67,7 +67,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
                                 <h2>Skills</h2>
                                 <h2>Contact Me</h2>
                 </section>
-} */}
+}
             {/* {
                 menuOpen ? <>
                 <section className='md:hidden flex items-center justify-start px-4 py-2'>
