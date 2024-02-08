@@ -47,7 +47,7 @@ const Nav = ({scrollToSkills,scrollToProjects,scrollToExperience,scrollToResume,
     {/* <h2 className='hover:cursor-pointer'>About</h2>
     <h2 className='hover:cursor-pointer'>Projects</h2>
     <h2 className='hover:cursor-pointer'>Contact Me</h2> */}
-    <h2 className='bg-[#4A48AA] text-white font-bold hover:cursor-pointer px-2 py-[0.2vh] rounded'>Resume</h2>
+    <h2 onClick={()=>window.open('https://drive.google.com/file/d/1PukcDuNcwvHHFI1ggolL8ybMKt4VMxmC/view')} className='bg-[#4A48AA] text-white font-bold hover:cursor-pointer px-2 py-[0.2vh] rounded'>Resume</h2>
     {/* <h2 className='md:text-2xl hover:cursor-pointer'><TiThMenu/></h2> */}
 </div>
 <div className='mob-right md:hidden text-3xl flex gap-4'>
