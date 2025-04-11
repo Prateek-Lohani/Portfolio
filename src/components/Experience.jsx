@@ -4,7 +4,7 @@ import Accordion from './Accordion';
 const Experience = forwardRef(({refer},ref) => {
 
     const data=[{
-id:0,
+            id:0,
             designation:'Software Engineer II',
             company:' @HashedIn by Deloitte',
             logo:'tcs.png',
