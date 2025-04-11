@@ -4,18 +4,29 @@ import Accordion from './Accordion';
 const Experience = forwardRef(({refer},ref) => {
 
     const data=[{
-            id:0,
+id:0,
+            designation:'Software Engineer II',
+            company:' @HashedIn by Deloitte',
+            logo:'tcs.png',
+            isOpen:false,
+            from:'Jun 2024',
+            to:'Present',
+            desc:'Demonstrated expertise in crafting a sophisticated monitoring dashboard to optimize log and failure monitoring processes for improved business efficiency. Proactively identified and implemented process improvements, reflecting a commitment to continuous enhancement. Proficient in Microsoft Azure, leveraging hands-on knowledge to enhance development and deployment processes. Adept at collaborative work, engaged with diverse teams, including designers and testers, fostering seamless communication and achieving project success.',
+            location:'Gurugram, India',
+            website:'https://hashedin.com'
+},{
+            id:1,
             designation:'System Engineer',
             company:' @Tata Consultancy Services',
             logo:'tcs.png',
             isOpen:false,
             from:'Jul 2021',
-            to:'Present',
+            to:'May 2024',
             desc:'Demonstrated expertise in crafting a sophisticated monitoring dashboard to optimize log and failure monitoring processes for improved business efficiency. Proactively identified and implemented process improvements, reflecting a commitment to continuous enhancement. Proficient in Microsoft Azure, leveraging hands-on knowledge to enhance development and deployment processes. Adept at collaborative work, engaged with diverse teams, including designers and testers, fostering seamless communication and achieving project success.',
             location:'Noida, India',
             website:'https://www.tcs.com'
     },{
-        id:1,
+        id:2,
             designation:'ASE Trainee (Web Developer Intern)',
             company:' @Infosys Ltd.',
             logo:'infy.png',
