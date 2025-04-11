@@ -7,7 +7,7 @@ const Experience = forwardRef(({refer},ref) => {
             id:0,
             designation:'Software Engineer II',
             company:' @HashedIn by Deloitte',
-            logo:'tcs.png',
+            logo:'hashedin-logo.png',
             isOpen:false,
             from:'Jun 2024',
             to:'Present',
