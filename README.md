@@ -18,19 +18,20 @@ This is the source code for my personal portfolio website, showcasing my project
 
 ## 📂 Project Structure
 
-├── public/ # Static assets
-├── src/ # Source code
-│ ├── assets/ # Images and other assets
-│ ├── components/ # Reusable components
-│ ├── pages/ # Page components
-│ ├── App.jsx # Main App component
-│ └── main.jsx # Entry point
-├── .eslintrc.cjs # ESLint configuration
-├── index.html # HTML template
-├── package.json # Project metadata and dependencies
-├── postcss.config.js # PostCSS configuration
-├── tailwind.config.js # Tailwind CSS configuration
-└── vite.config.js # Vite configuration
+Portfolio/
+├── node_modules/
+├── public/
+│   ├── index.html
+│   └── assets/
+├── src/
+│   ├── components/
+│   ├── css/
+│   ├── images/
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
 
 
 ---
