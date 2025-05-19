@@ -22,16 +22,16 @@ Portfolio/ <br>
 ├── node_modules/ <br>
 ├── public/ <br>
 │   ├── index.html <br>
-│   └── assets/
-├── src/
-│   ├── components/
-│   ├── css/
-│   ├── images/
-│   ├── App.js
-│   └── index.js
-├── .gitignore
-├── package.json
-└── README.md
+│   └── assets/ <br>
+├── src/ <br>
+│   ├── components/ <br>
+│   ├── css/ <br>
+│   ├── images/ <br>
+│   ├── App.js <br>
+│   └── index.js <br>
+├── .gitignore <br>
+├── package.json <br>
+└── README.md <br>
 
 
 ---
