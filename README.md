@@ -18,10 +18,10 @@ This is the source code for my personal portfolio website, showcasing my project
 
 ## 📂 Project Structure
 
-Portfolio/
-├── node_modules/
-├── public/
-│   ├── index.html
+Portfolio/ <br>
+├── node_modules/ <br>
+├── public/ <br>
+│   ├── index.html <br>
 │   └── assets/
 ├── src/
 │   ├── components/
