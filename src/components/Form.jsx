@@ -11,7 +11,7 @@ const Form = () => {
   }
 
   return (
-    <form action="https://formspree.io/f/mleqdkbo" method="POST" className='w-full h-fit bg-black/70 px-4 py-4 md:px-20 md:py-20 rounded-md md:rounded-xl'>
+    <form action="https://formspree.io/f/mleqdkbo" method="POST" className='w-full h-fit bg-black/70 px-4 py-8 md:px-20 md:py-20 rounded-md md:rounded-xl'>
         <div className='md:pb-2 mb-4 container text-xs md:text-sm flex gap-4 md:gap-6 w-full'>
           <input  name='userName' type='text' className='w-[40%] h-[6vh] rounded px-2 md:px-8' placeholder='Your Name'/>
           
