@@ -27,7 +27,7 @@ const data=[
  
     return (
     <div ref={refer} className='w-full  md:pb-4 md:pt-[10vh] pb-0 p-4 md:h-fit  flex flex-col items-center justify-center relative'>
-        <h5 className='text-3xl md:text-9xl font-[900] text-white p-2'>Let's Build Something Amazing</h5>
+        <h5 className='text-3xl md:text-6xl font-[900] text-white p-2'>Let's Build Something Amazing</h5>
         
         <div className="form-container md:w-[50%] w-[90vw] h-fit md:h-[70vh] ">
             <Form/>
