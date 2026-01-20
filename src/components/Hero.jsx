@@ -52,7 +52,7 @@ tl.from('.aboutmediv,.scrollbtn',{
   return (
     <div className=' bg-[#151515] w-full h-screen flex items-center justify-center'>
        
-            
+            <div class="bg-grid"></div>
             <div data-scroll data-scroll-speed="5" className="div-herotext w-full  py-8 overflow-hidden z-4 flex justify-center text-white text-[6vw] md:text-7xl">
             <h2 className="hero-text ">
                 Responsive.
