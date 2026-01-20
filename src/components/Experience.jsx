@@ -11,7 +11,7 @@ const Experience = forwardRef(({refer},ref) => {
             isOpen:false,
             from:'Jun 2024',
             to:'Present',
-            desc:'Demonstrated expertise in crafting a sophisticated monitoring dashboard to optimize log and failure monitoring processes for improved business efficiency. Proactively identified and implemented process improvements, reflecting a commitment to continuous enhancement. Proficient in Microsoft Azure, leveraging hands-on knowledge to enhance development and deployment processes. Adept at collaborative work, engaged with diverse teams, including designers and testers, fostering seamless communication and achieving project success.',
+            desc:'At HashedIn, I have had the privilege to work on diverse client projects across multiple industries, gaining extensive hands-on experience in creating scalable, manageable, and maintainable solutions for modernizing legacy applications. My expertise lies in leveraging React.js and its ecosystem to transform outdated systems into modern, responsive, and user-centric applications. I have successfully delivered end-to-end solutions that not only improve application performance and user experience but also ensure code maintainability, scalability, and alignment with current industry standards and best practices.',
             location:'Gurugram, India',
             website:'https://hashedin.com'
 },{
