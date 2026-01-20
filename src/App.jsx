@@ -40,7 +40,7 @@ const scrollToSocials=()=>{
 
   return (
     <Suspense fallback={<Loading />}>
-      <div className='w-full bg-[#151515]'>
+      <div className='w-full'>
         <Nav scrollToSkills={scrollToSkills} scrollToExperience={scrollToExperience} scrollToResume={scrollToResume} scrollToProjects={scrollToProjects} scrollToSocials={scrollToSocials}/>
         <Hero />
         <Skills refer={skillRef}/>
