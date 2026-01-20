@@ -89,6 +89,7 @@ tl.from('.aboutmediv,.scrollbtn',{
                     </div>
             <div className=" md:flex md:justify-center md:tracking-wide font-semibold md:top-[75vh] top-[60vh] p-5 md:p-0 text-[4vw] md:text-[2.3vh] md:w-full text-white aboutmediv absolute">
               <p className='md:w-[60%] md:px-4 md:text-center'> 
+                Frontend developer with
                <span className='hover:text-[#605ecd] font-thin hover:cursor-pointer duration-500'>4.5+ years</span>  of transforming complex ideas into elegant, performant web applications. Specializing in React, Redux, and modern frontend architecture with a passion for creating interfaces that users love.
               </p>
             </div>
